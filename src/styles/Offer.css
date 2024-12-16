@@ -1,0 +1,71 @@
+.offer-card-override-one {
+  background: linear-gradient(135deg, #3b2b1a, #a67c52, #5c4321) !important;
+  border: none !important;
+  border-radius: 12px !important;
+}
+
+.offer-card-override-two {
+  background: linear-gradient(135deg, #1b1e3c, #2e327d) !important;
+  border: none !important;
+  border-radius: 12px !important;
+}
+
+.offer-h5 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.offer-h6 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.offer-bonus {
+  color: #ffc057;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.offer-reload {
+  color: #6668ff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .offer-card-one {
+    margin-bottom: 20px !important;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .offer-card-one {
+    margin-bottom: 20px !important;
+  }
+}
